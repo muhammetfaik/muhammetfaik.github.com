@@ -53,7 +53,7 @@ bio:
   subheading: 'Alt başlık'
   img_url: false # 'your-img-url'
   body: >
-    Uludağ Üniversitesi 4.Sınıf öğrencisiyim.Yazılım mühendisi olarak freelance çalışıyorum.
+    Uludağ Üniversitesi 4.Sınıf öğrencisiyim.Ruby on Rails freelance developer.
 plugins:
   - jekyll-feed
   - jekyll-archives
