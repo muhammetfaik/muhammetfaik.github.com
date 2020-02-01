@@ -38,8 +38,8 @@ enabled:
     enabled: true
     twitter: true
     facebook: true
-    messenger: false
-    whatsapp: false
+    messenger: true
+    whatsapp: true
 
 # Get your disquas shortname from the disqus admin panel for your blog.
 disqus_shortname: your-forum-shortname
