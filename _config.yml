@@ -11,7 +11,7 @@ favicon: false
 
 footer:
   separator: '|'
-  content: Ⓒ Muhammet Faik
+  content: Ⓒ Muhammet Faik Alada
   # Append current year on build
   year: true
 
@@ -38,7 +38,7 @@ enabled:
     enabled: true
     twitter: true
     facebook: true
-    messenger: true
+    messenger: false
     whatsapp: true
 
 # Get your disquas shortname from the disqus admin panel for your blog.
@@ -53,7 +53,7 @@ bio:
   subheading: 'Alt başlık'
   img_url: false # 'your-img-url'
   body: >
-    Uludağ Üniversitesi 4.Sınıf öğrencisiyim.Ruby on Rails freelance developer.
+    
 plugins:
   - jekyll-feed
   - jekyll-archives
