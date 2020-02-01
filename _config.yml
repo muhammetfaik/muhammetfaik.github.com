@@ -49,10 +49,11 @@ socialBtnsColor: '#4845DF'
 bio:
   enabled: true
   animate: true
-  heading: Biografi
-  subheading: 'Alt başlık'
+  heading: Kimim ?
+  subheading: 
   img_url: false # 'your-img-url'
-  body: > 'Muhammet Faik Alada Uludağ Elektronik Mühendisliği 4.Sınıf öğrencisiyim bu aralar Neuronavigation Adında bir machine learning  araştırma grubunu kurmakla meşgulüm'
+  body: > 
+    Muhammet Faik Alada Uludağ Üniversitesi Elektronik Mühendisliği 4.Sınıf Öğrencisiyim Şu Sıralar Neuronavigation Adında bir Machine Learning Araştırma Grubunun kurulması için çalışıyorum.
     
 plugins:
   - jekyll-feed
