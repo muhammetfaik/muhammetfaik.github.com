@@ -13,7 +13,7 @@
         {% endif %}
         {% if socialBtns.facebook %}
         <li class="facebook">
-            <a href="https://facebook.com/sharer.php?u=https://muhammetfaik.github.io/{{ site.url }}{{ site.baseurl }}{{ page.url }}" target="_blank">
+            <a href="https://facebook.com/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&t={{ page.title | default: | uri_escape}}" target="_blank">
                 {% include facebook.svg %}
             </a>
         </li>
@@ -26,7 +26,7 @@
         {% endif %}
         {% if socialBtns.whatsapp %}
         <li class="whatsapp">
-          <a href='https://api.whatsapp.com/send?text=https://muhammetfaik.github.io/{{ site.url }}{{ site.baseurl }}{{ page.url }}'>{% include whatsapp.svg %}</a>
+          <a href='https://api.whatsapp.com/send?text={{ page.url | replace:"index.html","" | prepend: site.baseurl | prepend: site.url | uri_escape}}'>{% include whatsapp.svg %}</a>
         </li>
         {% endif %}
     </ul>
