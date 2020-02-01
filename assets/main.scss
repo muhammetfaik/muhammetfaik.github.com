@@ -15,10 +15,9 @@
 @import 'tables';
 
 //Pages
-@import "blog";
+@import 'blog';
 @import 'post';
 
-//Dynamic header media query
 
 {% assign i = 0 %}
 {% for pg in site.pages %}

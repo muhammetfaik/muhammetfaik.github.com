@@ -68,7 +68,8 @@ DEPENDENCIES
   jekyll-archives
   jekyll-feed (~> 0.9.2)
   jekyll-paginate
+  jekyll-sass-converter
   rake (~> 10.0)
 
 BUNDLED WITH
-   1.16.1
+   1.17.2

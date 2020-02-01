@@ -100,3 +100,6 @@ jekyll-archives:
     category: '/category/:name/'
 
 paginate: 20
+
+encoding: utf-8
+
