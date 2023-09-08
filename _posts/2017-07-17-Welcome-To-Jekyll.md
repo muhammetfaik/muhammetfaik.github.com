@@ -5,8 +5,8 @@ tags:
   - Jekyll
   - Help
 ---
-Bir ruby makalesidir
-
+Bir ruby makalesidir aslan
+ 
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
