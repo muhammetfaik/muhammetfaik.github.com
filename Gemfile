@@ -4,6 +4,7 @@ gemspec
 # Ensures the proper Jekyll version is running.
 gem "jekyll", "3.5.2"
 gem 'jekyll-sass-converter'
+gem "jekyll-theme-fundamental"
 
 # Plugins
 group :jekyll_plugins do

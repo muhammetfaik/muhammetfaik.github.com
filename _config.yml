@@ -22,7 +22,7 @@ description: Ruby ile ilgili makaleler".
 
 # Build settings
 markdown: kramdown
-theme: fundamental
+#theme: fundamental
 
 
 # Enable theme compononents
